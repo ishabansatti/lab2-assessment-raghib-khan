@@ -19,14 +19,14 @@ char getCharValue() {
     // Declare a variable var_char of type character and set its value to A.
     //return var_char;
     char var_char= 'A';
-    return var_char
+    return var_char;
 }
 
 int convertFloatToInt(float value) {
-    float value;
+    float v;
     cout<<"enter value in float"<<endl;
     cin>>value;
-    cout<<"The value of variable value in int is"<<static_cast(int)<<value<<endl;
+    cout<<"The value of variable value in int is"<<static_cast<int><<v<<endl;
     return value;
 }
 
