@@ -11,15 +11,22 @@ int getIntValue() {
 float getFloatValue() {
     // Declare a variable var_float of type float and set its value to 10.75.
     //return var_float;
+    float var_float=10.2;
+    return var_float;
 }
 
 char getCharValue() {
     // Declare a variable var_char of type character and set its value to A.
     //return var_char;
+    char var_char= 'A';
+    return var_char
 }
 
 int convertFloatToInt(float value) {
-    // convert value to int.
+    float value;
+    cout<<"enter value in float"<<endl;
+    cin>>value;
+    cout<<"The value of variable value in int is"<<static_cast(int)<<value<<endl;
     return value;
 }
 
@@ -30,6 +37,13 @@ Formula:
     Celsius = (Fahrenheit - 32) * 5 / 9
 */
 float fahrenheitToCelsius(float fahrenheit) {
+    float fahrenheit;
+    cout<<"Enter temperature in fahrenheit"<<endl;
+    cin>>fahrenheit;
+    float celsius;
+    celsius=(fahrenheit-32)*5/9;
+    cout<<"Temprature in celsius is"<<celsius<<endl;
+    return celsius;
     //return celsius;
 
 }
